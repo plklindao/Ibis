@@ -1,24 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #f0f0f0;
     padding: 20px;
 }
 
-.descrição{
+.descricao {
     text-align: center;
     margin-bottom: 2em;
 }
 
-.secao{
+.secao {
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 9px;
     display: flex;
@@ -26,41 +26,43 @@ body{
     padding: 10px;
 }
 
-.texto{
+.texto {
     flex: 1;
     padding-right: 20px;
     padding-left: 2em;
     align-self: center;
 }
 
-.texto h2{
+.texto h2 {
     line-height: 2em;
     margin-bottom: 1em;
     text-align: center;
 }
 
-.texto p{
+.texto p {
     line-height: 2em;
     margin-bottom: 1.5em;
 }
 
-.imagem{
+.imagem {
     flex: 1;
     text-align: center;
     align-self: center;
 }
 
-.imagem img{
+.imagem img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-@media (max-width: 800px){
-    .secao{
+@media (max-width: 800px) {
+    .secao {
         flex-direction: column;
     }
-    .texto, .imagem{
+
+    .texto,
+    .imagem {
         padding: 10px;
     }
 }
