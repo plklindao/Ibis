@@ -7,7 +7,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: #271010;
+    background-color: #c91717;
     padding: 20px;
 }
 
@@ -22,7 +22,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     border-radius: 9px;
     display: flex;
-    background-color: #4bbb2f;
+    background-color: #be4242;
     padding: 10px;
 }
 
