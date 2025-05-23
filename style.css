@@ -48,6 +48,7 @@ body {
     flex: 1;
     text-align: center;
     align-self: center;
+    height: 40px;
 }
 
 .imagem img {
